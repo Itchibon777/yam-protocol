@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - styled-components > @babel/traverse > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - styled-components > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - react-scripts > babel-preset-react-app > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/authereum-connector > authereum > web3-provider-engine > eth-block-tracker > @babel/plugin-transform-runtime > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/portis-connector > @portis/web3 > @portis/web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/portis-connector > @portis/web3 > @portis/web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > babelify > babel-core > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/portis-connector > @portis/web3 > @portis/web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/portis-connector > @portis/web3 > @portis/web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/portis-connector > @portis/web3 > @portis/web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/portis-connector > @portis/web3 > @portis/web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/portis-connector > @portis/web3 > @portis/web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/portis-connector > @portis/web3 > @portis/web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > babelify > babel-core > babel-generator > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
+    - use-wallet > @web3-react/portis-connector > @portis/web3 > @portis/web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > babelify > babel-core > babel-register > lodash:
+        patched: '2022-03-26T18:16:13.553Z'
